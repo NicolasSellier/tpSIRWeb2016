@@ -2,9 +2,23 @@
 // La création d'un Dnd requière un canvas et un interacteur.
 // L'interacteur viendra dans un second temps donc ne vous en souciez pas au départ.
 function DnD(canvas, interactor) {
-	// Définir ici les attributs de la 'classe'
+	this.initialX = 0;
+	this.initialY = 0;
+	this.endX = 0;
+	this.endY = 0;
 
 	// Developper les 3 fonctions gérant les événements
+	this.pression = function(evt){
+		
+	}
+	
+	this.deplacement = function(evt){
+		
+	}
+	
+	this.relachement = function(evt){
+		
+	}
 
 	// Associer les fonctions précédentes aux évènements du canvas.
 };
